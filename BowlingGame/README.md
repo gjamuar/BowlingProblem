@@ -22,7 +22,65 @@ System.out.println(game.getScore());
 System.out.println(game.isFinished());
 ```
 
+#### How to install and test
+```shell
+C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame>mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BowlingGame 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ BowlingGame ---
+[INFO] Deleting C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ BowlingGame ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ BowlingGame ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ BowlingGame ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ BowlingGame ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ BowlingGame ---
+[INFO] Surefire report directory: C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\target\surefire-reports
 
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.game.bowling.BowlingGameTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 sec
+
+Results :
+
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ BowlingGame ---
+[INFO] Building jar: C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\target\BowlingGame-1.0.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ BowlingGame ---
+[INFO] Installing C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\target\BowlingGame-1.0.jar to C:\Users\Gunjan Jamuar\.m2\repository\BowlingGame\BowlingGame\1.0\BowlingGame-1.0.jar
+[INFO] Installing C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame\pom.xml to C:\Users\Gunjan Jamuar\.m2\repository\BowlingGame\BowlingGame\1.0\BowlingGame-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.809 s
+[INFO] Finished at: 2017-12-03T17:53:21-05:00
+[INFO] Final Memory: 14M/107M
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\Gunjan Jamuar\git\BowlingGame\BowlingGame>
+
+```
 
 #### Developed By
 * Gunjan Jamuar
