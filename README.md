@@ -24,11 +24,10 @@ System.out.println(game.isFinished());
 
 
 
-Developed By
-------------
+#### Developed By
 * Gunjan Jamuar
 
 
-License
--------
+#### License
+    MIT
     Copyright 2017 Gunjan Jamuar
