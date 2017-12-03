@@ -1,3 +1,5 @@
+# BowlingProblem
+
 Bowling
 =======
 
@@ -8,8 +10,7 @@ BowlingGame API has following 3 methods:
 * getScore() - Return score for one Bowling game. This method computes the total score of a game.It calls computeFrameScore on each frame to calculate score of each frame and then sum all frame score. A strike earns ten pins plus the pins for the next two balls thrown.A spare earns ten pins plus the pins for the next ball thrown. Open frames count the value of the pinfall in that frame only.
 * isFinished() - Returns true if game is finished. This method checks if a game is over. It considers all type of game scenario i.e. OPEN, SPARE and STRIKE
 
-
-####Usage
+### Usage
 ```java
 BowlingGame game = new BowlingGame();
 System.out.println(game.getScore());
@@ -23,11 +24,10 @@ System.out.println(game.isFinished());
 
 
 
-Developed By
-------------
+#### Developed By
 * Gunjan Jamuar
 
 
-License
--------
+#### License
+    MIT
     Copyright 2017 Gunjan Jamuar
